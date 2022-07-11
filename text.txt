@@ -1,0 +1,2 @@
+sdkajsdkjskdjaklsjdksjdkasjd {{ x }}
+i know your ip is : {{ansible_facts["default_ipv4"]["address"]}}

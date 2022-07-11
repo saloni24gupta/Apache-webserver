@@ -1,0 +1,8 @@
+ - hosts: all
+   vars: 
+        - x: "hello worlf"
+        - y: 34
+        - z: "jdhfks"
+   tasks:
+     - debug: 
+           msg: "{{x }}"

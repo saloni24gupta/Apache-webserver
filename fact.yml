@@ -1,0 +1,8 @@
+ - hosts: all
+   vars: 
+      - x: 43
+   become: yes
+   tasks:
+     - template: 
+         dest: "/root/zz.txt"
+         src: "text.txt"
