@@ -1,9 +1,0 @@
-- hosts: all
-  vars:
-    - x: "helo"
-    - y: 4
-    - z 5
-  tasks:
-    - debug:
-        msg: " {{ x }}"
-
